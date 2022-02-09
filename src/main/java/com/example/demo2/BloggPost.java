@@ -3,7 +3,7 @@ package com.example.demo2;
 public class BloggPost {
 
     private int id;
-    private int rating;
+    private String message;
     private String title;
 
     public int getId() {
@@ -14,12 +14,12 @@ public class BloggPost {
         this.id = id;
     }
 
-    public int getRating() {
-        return rating;
+    public String getMessage() {
+        return message;
     }
 
-    public void setRating(int rating) {
-        this.rating = rating;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public String getTitle() {
@@ -34,7 +34,7 @@ public class BloggPost {
     public String toString() {
         return "BloggPost{" +
                 "id=" + id +
-                ", rating=" + rating +
+                ", message=" + message +
                 ", title='" + title + '\'' +
                 '}';
 
