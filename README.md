@@ -29,11 +29,11 @@ Planering:
   cetera)
 - [x] Din kod ska sparas i versionhantering med Git
   Klientkomponenten:
-- [ ] Klientkomponenten ska vara ett textbaserat gränssnitt (CLI)
-- [ ] Användaren ska kunna lista/lägga till/redigera/ta bort blogginlägg via APIförfrågningar till serverkomponenten
-- [ ] Användaren ska kunna lista alla inlägg (ID och titel visas)
-- [ ] Användaren ska kunna efterfråga ett specifikt inlägg och läsa innehållet
-- [ ] Ingen information ska sparas i klienten
-- [ ] Om användaren försöker visa, ta bort, redigera eller ändra ett inlägg som inte
+- [x] Klientkomponenten ska vara ett textbaserat gränssnitt (CLI)
+- [x] Användaren ska kunna lista/lägga till/redigera/ta bort blogginlägg via APIförfrågningar till serverkomponenten
+- [x] Användaren ska kunna lista alla inlägg (ID och titel visas)
+- [x] Användaren ska kunna efterfråga ett specifikt inlägg och läsa innehållet
+- [x] Ingen information ska sparas i klienten
+- [x] Om användaren försöker visa, ta bort, redigera eller ändra ett inlägg som inte
   finns ska det visas ett tydligt felmeddelande
-- [ ] Din kod ska sparas i versionshantering med Git
+- [x] Din kod ska sparas i versionshantering med Git
